@@ -18,4 +18,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/users/{user}/achievements', [AchievementsController::class, 'index']);
+Route::get('/users/{userId}/achievements', [AchievementsController::class, 'index']);
